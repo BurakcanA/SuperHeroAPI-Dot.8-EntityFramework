@@ -5,8 +5,8 @@ namespace TutorialAPI.Entities
     {
         public int Id { get; set; }
         public required string Name { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Place { get; set; }
+        public string FirstName { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
+        public string Place { get; set; } = string.Empty;
     }
 }
